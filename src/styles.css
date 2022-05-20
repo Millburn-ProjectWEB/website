@@ -1,10 +1,13 @@
 body {
     background:rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    background-image: url(background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 nav {
-    background: rgba(0, 0, 0, 0.24);
-    border-bottom: 1px solid #e5e5e5;
+    background: #ffffff80;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
@@ -13,7 +16,42 @@ nav {
 }
 
 #logo {
-    height: 50px;
+    height: 30px;
     margin: 10px;
     width: auto;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1rem;
+    position: absolute;
+    top: 32px;
+    right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    background: #2ba5c080;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    background: #2BA5C0;
+    color: black;
+    transition: 0.5s;
+}
+
+#container {
+    width: 90%;
+    background: white;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 40%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }

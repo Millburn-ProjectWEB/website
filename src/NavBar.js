@@ -6,6 +6,11 @@ const NavBar = () => {
   return (
     <nav>
       <img src={logo} alt="logo" id="logo"/>
+      <li>
+        <a href="#">{"{ about }"}</a>
+        <a href="#">{"{ enroll }"}</a>
+        <a href="#">{"{ events }"}</a>
+      </li>
     </nav>
   );
 };
